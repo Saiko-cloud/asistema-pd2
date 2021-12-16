@@ -3,4 +3,3 @@
 
 <br/>
 
-## Akademine sistema
