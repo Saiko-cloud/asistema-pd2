@@ -2,7 +2,7 @@
     <app-layout title="Dashboard">
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                Teacher
+                {{$page.props.user.name}} - {{$page.props.user.group}}
             </h2>
         </template>
 

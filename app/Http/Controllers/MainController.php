@@ -146,7 +146,11 @@ class MainController extends Controller
     {
         $student = User::findOrFail(Auth::user()->id);
 
-        return $student->lessons;
+        if($student->role == "student")
+        {
+            return $student->lessons;
+        }
+
     }
 
 }
